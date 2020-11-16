@@ -8,9 +8,18 @@ Simple single file REST-API using:
 -multer for multipart-form and file upload handling
 -MySQL database
 
-#ROUTES
+### Routes
+`GET /book/`
+Get all books
 
--GET
--POST
--PUT
--DELETE
+`GET /book/<isbn>`
+Get book by ISBN
+
+`POST /book/`
+Add new book into collection
+
+`PUT /book/`
+Update existing book
+
+`DELETE /book/<isbn>`
+Delete book by ISBN
